@@ -45,9 +45,9 @@ h1 {
 	padding: 10px;
 	box-shadow: 0 2px 6px rgba(50,50,90,.1);
     margin-right: 10px;
-    width: 900px;
+    margin-left: 10px; 
+	width: 900px;
 	background: rgba(0,0,0,.5);
-    
 }
 
 
