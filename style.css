@@ -38,18 +38,20 @@ h1 {
 }
 
 .list {
-	/*background: white;*/
 	border-radius: 40px;
 	margin-bottom: 20px;
 	padding: 10px;
-	/*box-shadow: 0 2px 6px rgba(50,50,90,.1);*/
-  box-shadow: 0 2px 6px #fff;
+	box-shadow: 0 2px 6px rgba(50,50,90,.1);
+  /*box-shadow: 0 2px 6px #fff;*/
   margin-right: 10px;
   margin-left: 10px; 
 	width: 900px;
 	background: rgba(0,0,0,.5);
-  border: 2px solid;
-  border-color: rgb(169, 169, 214);
+  border: 1px solid rgb(169, 169, 214);
+}
+
+.list:hover{
+  box-shadow: 0 3px 6px #fff;
 }
 
 .list__input {
@@ -71,13 +73,13 @@ h1 {
 	height: 12px;
 	width: 24px;
 	margin-right: 10px;
-	background: #BEB0F4;
+	/*background: #BEB0F4;*/
 }
 
 .faq-title::after {
 	content: '+';
 	float: right;
-	transition: transform .3s ease;
+  transition: transform .3s ease;
 }
 
 .conteudo {
