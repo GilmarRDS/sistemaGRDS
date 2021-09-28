@@ -103,7 +103,7 @@ h1 {
 
 }
  #fechar{
-   background: #0E141F;
+   float: left;
  }
 
 
@@ -124,7 +124,7 @@ h1 {
     content: "";
     position: absolute;
     inset: 0;
-    background: #f00;
+    /*background: #f00;*/
     transition: 0.5s;
     border-radius: 50px;
 }
