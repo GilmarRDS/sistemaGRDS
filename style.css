@@ -239,13 +239,13 @@ h1 {
   pointer-events: auto;
 }
 
-.modal > div {
+/*.modal > div {
   width: 400px;
   position: relative;
   margin: 10% auto;
   padding: 15px 20px;
   background: #fff;
-}
+}*/
 
 /*criando efeito do form*/
 
