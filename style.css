@@ -265,7 +265,7 @@ h1 {
     background-color: rgb(0, 0, 54);
     padding: 15px;
     border-radius:20px;
-    width: 23%;
+    width: 30%;
 }
 
 fieldset{
@@ -339,8 +339,7 @@ legend{
 	
   .box{
     width: 70%;
-    
-  }
+    }
 }
 
 /*.list__trigger .conteudo a {
