@@ -29,7 +29,7 @@ h1 {
   height: 100vh;
   max-width: 1200px;
    /*width: 1100px;*/
-   margin: 0 auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -264,12 +264,13 @@ h1 {
     transform: translate(-50%, -50%);
     background-color: rgb(0, 0, 54);
     padding: 15px;
-    border-radius:10px;
+    border-radius:20px;
     width: 23%;
 }
 
 fieldset{
     border:3px solid rgb(18, 18, 211);
+    border-radius: 20px;
 }
 
 legend{
@@ -277,11 +278,12 @@ legend{
     padding:10px;
     text-align: center;
     color:rgb(245, 244, 239);
-    border-radius: 15px;
+    border-radius: 40px;
     background-color: dodgerblue;
 }
 .inputBox{
     position: relative;
+    margin:0 10px 0 10px;
 }
 .inputUser{
     background: none;
@@ -318,13 +320,14 @@ legend{
 
 #submit{
     background-image: linear-gradient(to right, rgb(0,92,197), rgb(90,20,220));
-    width: 70%;
-    border-radius: 10px;
+    width: 60%;
+    border-radius: 40px;
     padding: 15px;
     color: white;
     border: none;
     font-size: 15px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 #submit:hover{
@@ -335,7 +338,7 @@ legend{
 @media screen and (max-width: 700px){
 	
   .box{
-    width: 60%;
+    width: 70%;
     
   }
 }
