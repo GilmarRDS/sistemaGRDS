@@ -335,12 +335,17 @@ legend{
     animation:bounce 1s;
 }
 
-#listInf{
-  display: none;
+.listInf__opt{
+  color:#f7f4f5af;
+  overflow:hidden;
+  font-size: 1.0em;
 }
 
-#listInf:hover{
-  display: block;
+.inputBox select{
+  background: rgb(0,0,54);
+  color:white;
+  margin:0;
+  width: 100%;
 
 }
 
