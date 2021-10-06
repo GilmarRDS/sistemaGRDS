@@ -268,6 +268,18 @@ h1 {
     width: 30%;
 }
 
+.frm ::-webkit-scrollbar{
+  width: 30px;
+}
+
+::-webkit-scrollbar .frm{
+  width: 30px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #fff;
+}
+
 fieldset{
     border:3px solid rgb(18, 18, 211);
     border-radius: 20px;

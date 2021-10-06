@@ -33,7 +33,7 @@
 
                         <div class="box">
 
-                            <form action="" id="frm">
+                            <form action="" id="frm" class="frm">
                                 <a href="#fechar" title="Fechar" id="fechar">x</a>
 
                                 <fieldset>
@@ -58,9 +58,59 @@
 
                                     <div class="inputBox">
                                         <input type="text" name="nome" id="nome" class=inputUser required>
-                                        <label for="nome" class="labelInput">Nome do aluno</label>
+                                        <label for="nome" class="labelInput">Nome completo do estudante</label>
                                     </div>
                                     <br><br>
+
+                                    <div class="inputBox">
+                                        <label for="data_nascimento"><b>Data de Nascimento</b></label>
+                                        <input type="date" name="data_nascimento" id="data_nascimento" class=inputUser
+                                            required>
+                                    </div>
+                                    <br><br>
+
+                                    <div class="inputBox">
+                                        <input type="text" name="naturalidade" id="natural" class=inputUser required>
+                                        <label for="natural" class="labelInput">Naturalidade</label>
+                                    </div>
+                                    <br><br>
+
+                                    <p>Gênero:</p>
+                                    <input type="radio" name="genero" id="masculino" value="masculino" required>
+                                    <label for="masculino">Masculino</label>
+                                    <input type="radio" name="genero" id="feminino" value="feminino" required>
+                                    <label for="feminino">Feminino</label>
+                                    <br><br>
+
+                                    <p>Cor/Raça:</p>
+                                    <input type="radio" name="cor" id="cor__branca" value="branca" required>
+                                    <label for="cor__branca">Branca</label>
+                                    <input type="radio" name="cor" id="cor__parda" value="parda" required>
+                                    <label for="cor__parda">Parda</label>
+                                    <input type="radio" name="cor" id="cor__indigena" value="indigena" required>
+                                    <label for="cor__indigena">Índigena</label>
+                                    <input type="radio" name="cor" id="cor__preta" value="preta" required>
+                                    <label for="cor__preta">Preta</label>
+                                    <input type="radio" name="cor" id="cor__amarela" value="amarela" required>
+                                    <label for="cor__amarela">Amarela</label>
+                                    <input type="radio" name="cor" id="cor__ndeclarada" value="naoDeclarada" required>
+                                    <label for="cor__ndeclarada">Não declarada</label>
+                                    <br><br>
+
+                                    <p>É aluno público alvo da Educação Especial?</p>
+                                    <input type="radio" name="especial" id="ee__sim" value="sim" required>
+                                    <label for="ee__sim">Sim</label>
+                                    <input type="radio" name="especial" id="ee__nao" value="nao" required>
+                                    <label for="ee__nao">Não</label>
+                                    <br><br>
+
+                                    <p>Frequenta sala de recurso (AEE)?</p>
+                                    <input type="radio" name="especial" id="aee__sim" value="sim" required>
+                                    <label for="aee__sim">Sim</label>
+                                    <input type="radio" name="especial" id="aee__nao" value="nao" required>
+                                    <label for="aee__nao">Não</label>
+                                    <br><br>
+
                                     <div class="inputBox">
                                         <input type="text" name="email" id="email" class=inputUser required>
                                         <label for="email" class="labelInput">Email</label>
@@ -71,18 +121,8 @@
                                         <label for="telefone" class="labelInput">Número do telefone</label>
                                     </div>
                                     <br>
-                                    <p>Sexo:</p>
-                                    <input type="radio" name="genero" id="masculino" value="masculino" required>
-                                    <label for="masculino">Masculino</label>
-                                    <input type="radio" name="genero" id="feminino" value="feminino" required>
-                                    <label for="feminino">Feminino</label>
-                                    <br><br>
-                                    <div class="inputBox">
-                                        <label for="data_nascimento"><b>Data de Nascimento</b></label>
-                                        <input type="date" name="data_nascimento" id="data_nascimento" class=inputUser
-                                            required>
-                                    </div>
-                                    <br>
+                                    
+
                                     <div class="inputBox">
                                         <input type="text" name="endereco" id="endereco" class=inputUser required>
                                         <label for="endereco" class="labelInput">Endereço</label>
