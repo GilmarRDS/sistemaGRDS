@@ -260,24 +260,25 @@ h1 {
     color: white;
     position: absolute;
     top:50%;
-    left: 50%;
+    left:50%;
     transform: translate(-50%, -50%);
     background-color: rgb(0, 0, 54);
-    padding: 15px;
+    padding: 15px 0px 15px 15px;
     border-radius:20px;
-    width: 30%;
+    height: 90%;
+    width: 40%;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
-.frm ::-webkit-scrollbar{
-  width: 30px;
-}
 
-::-webkit-scrollbar .frm{
-  width: 30px;
+::-webkit-scrollbar {
+  width: 10px;
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: #fff;
+  background-color: rgb(0, 0, 54);
+  border-radius: 20px;
 }
 
 fieldset{
@@ -328,6 +329,12 @@ legend{
     padding: 8px;
     outline: none;
     font-size: 15px;
+}
+
+.box p{
+  text-align: left;
+  position: relative;
+  margin:0 10px 0 10px;
 }
 
 #submit{
