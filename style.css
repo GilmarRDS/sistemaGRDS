@@ -333,6 +333,13 @@ legend{
     font-size: 15px;
 }
 
+.inputBox b{
+  position: relative;
+  text-align: left;
+  margin: 0 10px 0 10px;
+}
+
+
 .box p{
   text-align: left;
   position: relative;
