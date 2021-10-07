@@ -131,10 +131,25 @@
                                     <br><br>
 
                                     <div class="inputBox">
-                                        <input type="text" name="email" id="email" class=inputUser required>
-                                        <label for="email" class="labelInput">Email</label>
+                                        <p>Responsável Legal:</p>
+                                        <input type="radio" name="responsavel" id="rl__pai" value="pai" required>
+                                        <label for="rl__pai">Pai</label>
+                                        <input type="radio" name="responsavel" id="rl__mae" value="mae" required>
+                                        <label for="rl__mae">Mãe</label>
+                                        <input type="radio" name="responsavel" id="rl__responsavel"
+                                            value="responsavel_legal" required>
+                                        <label for="rl__responsavel">Responsável Legal</label>
                                     </div>
                                     <br><br>
+
+                                    <div class="inputBox">
+                                        <input type="text" name="responsavel" id="responsavel__legal" class=inputUser
+                                            required>
+                                        <label for="responsavel__legal" class="labelInput">Nome do responsável
+                                            legal</label>
+                                    </div>
+                                    <br><br>
+
                                     <div class="inputBox">
                                         <input type="tel" name="telefone" id="telefone" class=inputUser required>
                                         <label for="telefone" class="labelInput">Número do telefone</label>
@@ -142,8 +157,52 @@
                                     <br><br>
 
                                     <div class="inputBox">
+                                        <input type="text" name="email" id="email" class=inputUser required>
+                                        <label for="email" class="labelInput">Email</label>
+                                    </div>
+                                    <br><br>
+
+                                    <div class="inputBox">
+                                        <input type="text" name="cep" id="cep" class=inputUser required>
+                                        <label for="cep" class="labelInput">Cep</label>
+                                    </div>
+                                    <br><br>
+
+                                    <div class="inputBox">
+                                        <input type="text" name="municipio" id="municipio" class=inputUser required>
+                                        <label for="municipio" class="labelInput">Município</label>
+                                    </div>
+                                    <br><br>
+
+                                    <div class="inputBox">
                                         <input type="text" name="endereco" id="endereco" class=inputUser required>
                                         <label for="endereco" class="labelInput">Endereço</label>
+                                    </div>
+                                    <br><br>
+
+                                    <div class="inputBox">
+                                        <p>Localização</p>
+                                        <input type="radio" name="localizacao" id="localizacao__urbana" value="urbana"
+                                            required>
+                                        <label for="localizacao__urbana">Urbana</label>
+                                        <input type="radio" name="localizacao" id="localizacao__rural" value="rural"
+                                            required>
+                                        <label for="localizacao__rural">Rural</label>
+                                    </div>
+                                    <br><br>
+
+                                    <div class="inputBox">
+                                        <p>Necessita de transporte escolar</p>
+                                        <input type="radio" name="transporte" id="te__sim" value="sim" required>
+                                        <label for="te__sim">Sim</label>
+                                        <input type="radio" name="medicamento" id="te__nao" value="nao" required>
+                                        <label for="te__nao">Não</label>
+                                    </div>
+                                    <br><br>
+
+                                    <div class="inputBox">
+                                        <input type="text" name="edp" id="edp" class=inputUser required>
+                                        <label for="edp" class="labelInput">Número do Código da EDP (Talão de Energia)</label>
                                     </div>
                                     <br><br>
 
