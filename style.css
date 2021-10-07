@@ -215,6 +215,10 @@ h1 {
     width: 90%;
   }
 
+  .conteudo .btn span{
+    font-size: 1em;
+    width: none;
+  }
 }
 
 
@@ -318,6 +322,13 @@ legend{
     transition: .5s;    
 }
 
+.container .conteudo .inputBox .inputBox__radio{
+  padding: 3px 10px 0 3px;
+  text-align: left;
+  align-items: left;
+}
+
+
 .inputUser:focus ~ .labelInput , .inputUser:valid ~ .labelInput{
     top: -20px;
     font-size: 12px;
@@ -342,7 +353,8 @@ legend{
 .box p{
   text-align: left;
   position: relative;
-  margin:0 10px 0 10px;
+  padding-bottom: 15px;
+ /* margin:0 10px 0 10px;*/
 }
 
 #submit{
